@@ -16,7 +16,6 @@ int main() {
     float area1, area2;
     float pib1, pib2;
     int pontos_turisticos1, pontos_turisticos2;
-
     float densidadePOP1, densidadePOP2;
     float pibPER1, pibPER2;
     
@@ -54,6 +53,9 @@ int main() {
     scanf("%f", &pib2);
     printf("insira qte ptos turisticos: ");
     scanf("%d", &pontos_turisticos2);
+    
+    //calculos da densidade populacional e pib per capita
+    
     densidadePOP1 = populacao1/area1;
     pibPER1 = pib1/populacao1;
     densidadePOP2 = populacao2/area2;
